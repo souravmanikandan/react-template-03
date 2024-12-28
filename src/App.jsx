@@ -15,7 +15,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/react-template-03/" element={<Layout />}>
           <Route index element={<Home />} />
         </Route>
       </Routes>
